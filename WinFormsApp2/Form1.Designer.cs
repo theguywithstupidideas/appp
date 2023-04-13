@@ -490,7 +490,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(tabControl1);
             Name = "Form1";
-            Text = "#include \"lab/*.c\"";
+            Text = "UltiLib GUI";
             Load += Form1_Load;
             tabPage4.ResumeLayout(false);
             tabPage4.PerformLayout();
