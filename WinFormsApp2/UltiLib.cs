@@ -57,5 +57,7 @@ namespace WinFormsApp2
         }
         [DllImport("lib.dll")]
         public static extern int quad(int a);
+        [DllImport("lib.dll")]
+        public static extern int parcheggio(int a);
     }
 }

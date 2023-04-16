@@ -470,8 +470,9 @@
             button7.Name = "button7";
             button7.Size = new Size(226, 23);
             button7.TabIndex = 1;
-            button7.Text = "Lab 5 - If-Else";
+            button7.Text = "Lab 4 - Ripassone";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // label13
             // 
@@ -490,7 +491,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(tabControl1);
             Name = "Form1";
-            Text = "UltiLib GUI";
+            Text = "UltiLib GUI - Lab. 2 - Variabili";
             Load += Form1_Load;
             tabPage4.ResumeLayout(false);
             tabPage4.PerformLayout();
