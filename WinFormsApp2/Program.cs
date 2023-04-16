@@ -1,4 +1,4 @@
-namespace WinFormsApp2
+namespace Ultilib_GUI
 {
     internal static class Program
     {

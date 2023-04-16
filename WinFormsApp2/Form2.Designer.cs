@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp2
+﻿namespace Ultilib_GUI
 {
     partial class Form2
     {
@@ -87,6 +87,7 @@
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(220, 23);
             textBox4.TabIndex = 1;
+            textBox4.TextChanged += textBox4_TextChanged;
             // 
             // label8
             // 
@@ -107,6 +108,7 @@
             Controls.Add(tabControl1);
             Name = "Form2";
             Text = "Form2";
+            FormClosing += Form2_FormClosing_1;
             tabControl1.ResumeLayout(false);
             tabPage4.ResumeLayout(false);
             tabPage4.PerformLayout();

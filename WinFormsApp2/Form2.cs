@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using System.Text.RegularExpressions;
 
-namespace WinFormsApp2
+namespace Ultilib_GUI
 {
     public partial class Form2 : Form
     {
@@ -28,6 +28,19 @@ namespace WinFormsApp2
             words[1] = a + "€";
             string output = string.Join(": ", words);
             label7.Text = output;
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form2_FormClosing_1(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
         }
     }
 }

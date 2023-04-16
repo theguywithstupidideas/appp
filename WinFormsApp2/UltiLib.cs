@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace WinFormsApp2
+namespace Ultilib_GUI
 {
     public class UltiLib
     {
